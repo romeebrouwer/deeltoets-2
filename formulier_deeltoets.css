@@ -1,0 +1,152 @@
+/* dit zorgt ervoor */
+@media only screen and (min-width:960px) {
+body{
+background-color: aliceblue;
+}
+}
+
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body > header {
+    background: pink;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+body > header > * {
+    flex: 1 1 auto;
+}
+/* Kleuren elke box */
+body > header > h1 {background-color: aquamarine;}
+body > header > p {background-color: cadetblue;}
+body > header > img {background-color: bisque;}
+body > header > nav {background-color: chartreuse;}
+body > header > form {background-color: crimson;}
+body > header > p(1) {background-color: darkorange;}
+.related > article > footer {
+    order: 2;
+}
+body > footer {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding: 10px;
+}
+#sitemap {
+    background-color: aquamarine;
+}
+#contact {
+     background-color: crimson;
+}
+#search {
+     background-color: bisque;
+}
+#about {
+     background-color: chartreuse;
+}
+#credits {
+    background-color: darkgray;
+}
+#feedback {
+     background-color: darkorange;
+}
+
+main {
+    border: 0.5em solid;
+    border-radius: 10px 20px 30px 40px;
+    width: 70%;
+    box-shadow: 6px 6px 80px;
+    margin:auto;
+    padding: 20px;
+}
+
+main , aside , .related {
+    margin: auto;
+    width: 70%;
+}
+
+.related {
+    border: 0.5em solid;
+    border-radius: 10px 20px 30px 40px;
+    width: 70%;
+    box-shadow: 6px 6px 80px;
+    margin:auto;
+    padding: 20px;
+}
+
+aside {
+    border: 0.5em solid;
+    border-radius: 10px 20px 30px 40px;
+    width: 70%;
+    box-shadow: 6px 6px 80px;
+    margin:auto;
+    padding: 20px;
+}
+
+a:hover {
+    background-color: grey;
+}
+
+aside > section {
+    border: dotted 0.1em black;
+    display: inline-block;
+    padding: 0.5em;
+    width: 48%;
+}
+h1 {
+    color: #cfb6ff;
+    font-size: 3.2vw;
+    border: 2px dotted white;
+    border-radius: 70px 20px 70px;
+    padding: 20px;
+    text-align: center;
+    text-shadow: 1px 1px 1px yellow;
+    transform: rotate(3deg);
+    transition: 5s;
+}
+
+h2 {
+    color: #cfb6ff;
+    font-size: 3.0vh;
+    margin-top: 2em;
+    transition: 5s;
+}
+h3 {
+    color: #cfb6ff;
+    margin-top: 1em;
+    transition: 5s;
+}
+
+p {
+    font-size: 2.2vmin;
+}
+
+/*TABLET*/
+@media only screen and (min-width: 501px )and (max-width: 1023px) {
+    body {
+        background-color: red;
+    }
+}
+
+/*PHONE*/
+@media only screen and (max-width: 500px) {
+    body {
+        background-color: yellow;
+    }
+}
+
+input {
+    width: 150px;
+    display: block;
+    margin-bottom: 10px;
+    background-color: yellow;
+}
+
+textarea {
+    width: 150px;
+    display: block;
+    margin-bottom: 10px;
+    background-color: yellow;
+}
